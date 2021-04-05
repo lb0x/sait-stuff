@@ -1,4 +1,8 @@
 #!/usr/bin/python3
+
+## script acts as end user, looking to pay for data in a machine-to-machine economy based on the
+## cryptocurrency Iota.
+
 from iota import Iota, Address, TryteString, ProposedTransaction, Tag
 from iota.crypto.types import Seed
 import json
